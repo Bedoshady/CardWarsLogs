@@ -1,0 +1,865 @@
+Mono path[0] = 'H:/Unity/CardWarsHacked/Card Wars Kingdom_Data/Managed'
+Mono config path = 'H:/Unity/CardWarsHacked/MonoBleedingEdge/etc'
+Starting managed debugger on port 56088
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=0.0.0.0:56088
+Found 2 interfaces on host : 0) 192.168.1.25 1) 172.31.112.1
+Player connection [17392] Multi-casting "[IP] 192.168.1.25 [Port] 55000 [Flags] 2 [Guid] 2485482088 [EditorId] 2172728839 [Version] 1048832 [Id] WindowsPlayer(2,DESKTOP-MF4QOT5) [Debug] 1 [PackageName] WindowsPlayer [ProjectName] Card Wars Kingdom" to [225.0.0.222:54997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Loading player data from H:/Unity/CardWarsHacked/Card Wars Kingdom_Data/data.unity3d
+Initialize engine version: 2022.3.16f1 (d2c21f0ef2f1)
+[Subsystems] Discovering subsystems at path H:/Unity/CardWarsHacked/Card Wars Kingdom_Data/UnitySubsystems
+GfxDevice: creating device client; threaded=1; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA Quadro K2200 (ID=0x13ba)
+    Vendor:   NVIDIA
+    VRAM:     4053 MB
+    Driver:   27.21.14.6192
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.228 seconds
+- Finished resetting the current domain, in  0.002 seconds
+OnLevelWasLoaded was found on InjectionDetector
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+OnLevelWasLoaded was found on WallHackDetector
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+OnLevelWasLoaded was found on SpeedHackDetector
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+OnLevelWasLoaded was found on SLOTGame
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+OnLevelWasLoaded was found on ObscuredCheatingDetector
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+OnLevelWasLoaded was found on SIG_GlowMask_Global
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+<RI> Initializing input.
+
+<RI> Input initialized.
+
+<RI> Initialized touch support.
+
+UnloadTime: 1.148800 ms
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.234200 ms
+Unloading 6 unused Assets / (64 B). Loaded Objects now: 2336.
+Memory consumption went from 55.4 MB to 55.4 MB.
+Total: 0.711800 ms (FindLiveObjects: 0.136000 ms CreateObjectMapping: 0.052100 ms MarkObjects: 0.495800 ms  DeleteObjects: 0.027500 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+Setting up 4 worker threads for Enlighten.
+Unloading 9 unused Assets / (0 B). Loaded Objects now: 2347.
+Memory consumption went from 59.9 MB to 59.9 MB.
+Total: 1.434600 ms (FindLiveObjects: 0.155800 ms CreateObjectMapping: 0.066600 ms MarkObjects: 1.196400 ms  DeleteObjects: 0.015300 ms)
+
+The referenced script on this Behaviour (Game Object 'JobManager') is missing!
+The referenced script on this Behaviour (Game Object 'JobManager') is missing!
+The referenced script on this Behaviour (Game Object 'UpSightManager') is missing!
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.398400 ms
+DontDestroyOnLoad only works for root GameObjects or components on root GameObjects.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+KFFNotificationManager:Awake () (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/KFFNotificationManager.cs:16)
+
+[H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/KFFNotificationManager.cs line 16]
+
+DontDestroyOnLoad only works for root GameObjects or components on root GameObjects.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+PurchaseManager:Awake () (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/PurchaseManager.cs:230)
+
+[H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/PurchaseManager.cs line 230]
+
+Unloading 5 unused Assets / (43.2 KB). Loaded Objects now: 3073.
+Memory consumption went from 58.1 MB to 58.1 MB.
+Total: 1.457100 ms (FindLiveObjects: 0.173600 ms CreateObjectMapping: 0.056500 ms MarkObjects: 1.162600 ms  DeleteObjects: 0.064000 ms)
+
+Entering SQSettings Init()
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SQSettings:Init () (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/SQSettings.cs:125)
+LoadingManager:Start () (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/LoadingManager.cs:17)
+
+(Filename: H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/SQSettings.cs Line: 125)
+
+DontDestroyOnLoad only works for root GameObjects or components on root GameObjects.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+ChatManager:Start () (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/ChatManager.cs:169)
+
+[H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/ChatManager.cs line 169]
+
+The referenced script on this Behaviour (Game Object 'UpSightManager') is missing!
+The referenced script on this Behaviour (Game Object 'UpSightManager') is missing!
+The referenced script on this Behaviour (Game Object 'BundleVersionManager') is missing!
+The referenced script on this Behaviour (Game Object 'AnalyticsManager') is missing!
+The referenced script on this Behaviour (Game Object 'HelpShiftManager') is missing!
+The referenced script on this Behaviour (Game Object 'JobManager') is missing!
+The referenced script on this Behaviour (Game Object 'JobManager') is missing!
+The referenced script on this Behaviour (Game Object 'Pushwoosh') is missing!
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.020500 ms
+DontDestroyOnLoad only works for root GameObjects or components on root GameObjects.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+KFFNotificationManager:Awake () (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/KFFNotificationManager.cs:16)
+
+[H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/KFFNotificationManager.cs line 16]
+
+DontDestroyOnLoad only works for root GameObjects or components on root GameObjects.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+PurchaseManager:Awake () (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/PurchaseManager.cs:230)
+
+[H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/PurchaseManager.cs line 230]
+
+Unloading 2 unused Assets / (1.2 KB). Loaded Objects now: 3298.
+Memory consumption went from 58.1 MB to 58.1 MB.
+Total: 1.521000 ms (FindLiveObjects: 0.173300 ms CreateObjectMapping: 0.063600 ms MarkObjects: 1.271400 ms  DeleteObjects: 0.012200 ms)
+
+The referenced script on this Behaviour (Game Object 'Pushwoosh') is missing!
+The referenced script on this Behaviour (Game Object 'HelpShiftManager') is missing!
+The referenced script on this Behaviour (Game Object 'JobManager') is missing!
+The referenced script on this Behaviour (Game Object 'JobManager') is missing!
+The referenced script on this Behaviour (Game Object 'UpSightManager') is missing!
+The referenced script on this Behaviour (Game Object 'UpSightManager') is missing!
+The referenced script on this Behaviour (Game Object 'AnalyticsManager') is missing!
+The referenced script on this Behaviour (Game Object 'BundleVersionManager') is missing!
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.441800 ms
+DontDestroyOnLoad only works for root GameObjects or components on root GameObjects.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+KFFNotificationManager:Awake () (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/KFFNotificationManager.cs:16)
+
+[H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/KFFNotificationManager.cs line 16]
+
+DontDestroyOnLoad only works for root GameObjects or components on root GameObjects.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+PurchaseManager:Awake () (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/PurchaseManager.cs:230)
+
+[H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/PurchaseManager.cs line 230]
+
+Unloading 2 unused Assets / (1.5 KB). Loaded Objects now: 3779.
+Memory consumption went from 58.7 MB to 58.7 MB.
+Total: 1.772300 ms (FindLiveObjects: 0.208500 ms CreateObjectMapping: 0.066100 ms MarkObjects: 1.482000 ms  DeleteObjects: 0.015100 ms)
+
+This device is:e7fdec8592fd43d7b8b9d4792b3c5fb1 / Player ID is:63f1c44c-8f6e-4b34-82c5-9faed3ea78ea
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+TFUtils:Init (string) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/TFUtils.cs:45)
+Session:.ctor (int,string,bool,string) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/Session.cs:273)
+SessionManager:Login (bool,string,string) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/SessionManager.cs:201)
+PlayerInfoScript:DoLogin () (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/PlayerInfoScript.cs:491)
+PlayerInfoScript:Login () (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/PlayerInfoScript.cs:481)
+ConnectScreenController:Update () (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/ConnectScreenController.cs:143)
+
+(Filename: H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/TFUtils.cs Line: 45)
+
+Trying to create the session...
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Session:.ctor (int,string,bool,string) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/Session.cs:274)
+SessionManager:Login (bool,string,string) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/SessionManager.cs:201)
+PlayerInfoScript:DoLogin () (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/PlayerInfoScript.cs:491)
+PlayerInfoScript:Login () (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/PlayerInfoScript.cs:481)
+ConnectScreenController:Update () (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/ConnectScreenController.cs:143)
+
+(Filename: H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/Session.cs Line: 274)
+
+Starting to User login
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Session/Authorizing:OnEnter (Session,bool,string) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/Session.cs:57)
+Session:.ctor (int,string,bool,string) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/Session.cs:282)
+SessionManager:Login (bool,string,string) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/SessionManager.cs:201)
+PlayerInfoScript:DoLogin () (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/PlayerInfoScript.cs:491)
+PlayerInfoScript:Login () (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/PlayerInfoScript.cs:481)
+ConnectScreenController:Update () (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/ConnectScreenController.cs:143)
+
+(Filename: H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/Session.cs Line: 57)
+
+making request to https://cwk.retroretreat.net/account/preAuth/
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+TFServer:GetToJSON (string,TFServer/JsonResponseHandler) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/TFServer.cs:100)
+SQServer:GetToJSON (string,TFServer/JsonResponseHandler) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/SQServer.cs:130)
+SQServer:PreAuth (TFServer/JsonResponseHandler) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/SQServer.cs:125)
+SQAuth:CheckNonce (Session,TFServer/JsonResponseHandler,bool,string) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/SQAuth.cs:56)
+SQAuth:AuthUser (Session,TFServer/JsonResponseHandler,bool,string) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/SQAuth.cs:36)
+Player:LoadFromNetwork (string,Session,bool,string) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/Player.cs:104)
+Session/Authorizing:OnEnter (Session,bool,string) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/Session.cs:60)
+Session:.ctor (int,string,bool,string) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/Session.cs:282)
+SessionManager:Login (bool,string,string) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/SessionManager.cs:201)
+PlayerInfoScript:DoLogin () (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/PlayerInfoScript.cs:491)
+PlayerInfoScript:Login () (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/PlayerInfoScript.cs:481)
+ConnectScreenController:Update () (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/ConnectScreenController.cs:143)
+
+(Filename: H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/TFServer.cs Line: 100)
+
+in onDownloadComplete...
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+TFServer:OnDownloadComplete (object,System.Net.DownloadStringCompletedEventArgs) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/TFServer.cs:165)
+System.Net.WebClient:OnDownloadStringCompleted (System.Net.DownloadStringCompletedEventArgs)
+System.Net.WebClient:<StartAsyncOperation>b__78_2 (object)
+UnityEngine.UnitySynchronizationContext/WorkRequest:Invoke () (at C:/build/output/unity/unity/Runtime/Export/Scripting/UnitySynchronizationContext.cs:153)
+UnityEngine.UnitySynchronizationContext:Exec () (at C:/build/output/unity/unity/Runtime/Export/Scripting/UnitySynchronizationContext.cs:83)
+UnityEngine.UnitySynchronizationContext:ExecuteTasks () (at C:/build/output/unity/unity/Runtime/Export/Scripting/UnitySynchronizationContext.cs:107)
+
+(Filename: H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/TFServer.cs Line: 165)
+
+in onRequestCompete...
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+TFServer:OnRequestComplete (object,System.ComponentModel.AsyncCompletedEventArgs) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/TFServer.cs:215)
+TFServer:OnDownloadComplete (object,System.Net.DownloadStringCompletedEventArgs) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/TFServer.cs:166)
+System.Net.WebClient:OnDownloadStringCompleted (System.Net.DownloadStringCompletedEventArgs)
+System.Net.WebClient:<StartAsyncOperation>b__78_2 (object)
+UnityEngine.UnitySynchronizationContext/WorkRequest:Invoke () (at C:/build/output/unity/unity/Runtime/Export/Scripting/UnitySynchronizationContext.cs:153)
+UnityEngine.UnitySynchronizationContext:Exec () (at C:/build/output/unity/unity/Runtime/Export/Scripting/UnitySynchronizationContext.cs:83)
+UnityEngine.UnitySynchronizationContext:ExecuteTasks () (at C:/build/output/unity/unity/Runtime/Export/Scripting/UnitySynchronizationContext.cs:107)
+
+(Filename: H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/TFServer.cs Line: 215)
+
+web result: {"data":{"nonce":"f046455621464236d12ff6d00d638f0e317ba757acf19a89d1951f76c76dba80"}}
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+TFServer:OnDownloadComplete (object,System.Net.DownloadStringCompletedEventArgs) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/TFServer.cs:171)
+System.Net.WebClient:OnDownloadStringCompleted (System.Net.DownloadStringCompletedEventArgs)
+System.Net.WebClient:<StartAsyncOperation>b__78_2 (object)
+UnityEngine.UnitySynchronizationContext/WorkRequest:Invoke () (at C:/build/output/unity/unity/Runtime/Export/Scripting/UnitySynchronizationContext.cs:153)
+UnityEngine.UnitySynchronizationContext:Exec () (at C:/build/output/unity/unity/Runtime/Export/Scripting/UnitySynchronizationContext.cs:83)
+UnityEngine.UnitySynchronizationContext:ExecuteTasks () (at C:/build/output/unity/unity/Runtime/Export/Scripting/UnitySynchronizationContext.cs:107)
+
+(Filename: H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/TFServer.cs Line: 171)
+
+posting data to https://cwk.retroretreat.net/account/gcAuth/
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+TFServer:PostToJSON (string,System.Collections.Generic.Dictionary`2<string, object>,TFServer/JsonResponseHandler,bool) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/TFServer.cs:57)
+SQServer:GcLogin (string,string,string,TFServer/JsonResponseHandler) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/SQServer.cs:213)
+SQAuth:PlatformAuth (Session,TFServer/JsonResponseHandler,bool,string) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/SQAuth.cs:66)
+SQAuth/<>c__DisplayClass13_0:<CheckNonce>b__0 (System.Collections.Generic.Dictionary`2<string, object>,System.Net.HttpStatusCode) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/SQAuth.cs:53)
+TFServer/<>c__DisplayClass20_0:<JsCallback>b__0 (string,System.Net.HttpStatusCode) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/TFServer.cs:143)
+TFServer:OnDownloadComplete (object,System.Net.DownloadStringCompletedEventArgs) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/TFServer.cs:175)
+System.Net.WebClient:OnDownloadStringCompleted (System.Net.DownloadStringCompletedEventArgs)
+System.Net.WebClient:<StartAsyncOperation>b__78_2 (object)
+UnityEngine.UnitySynchronizationContext/WorkRequest:Invoke () (at C:/build/output/unity/unity/Runtime/Export/Scripting/UnitySynchronizationContext.cs:153)
+UnityEngine.UnitySynchronizationContext:Exec () (at C:/build/output/unity/unity/Runtime/Export/Scripting/UnitySynchronizationContext.cs:83)
+UnityEngine.UnitySynchronizationContext:ExecuteTasks () (at C:/build/output/unity/unity/Runtime/Export/Scripting/UnitySynchronizationContext.cs:107)
+
+(Filename: H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/TFServer.cs Line: 57)
+
+post data: player_id=63f1c44c-8f6e-4b34-82c5-9faed3ea78ea&alias=63f1c44c-8f6e-4b34-82c5-9faed3ea78ea&signature=1ocfBAg_Myp0qKwdUmqQzXbOKjTn2l0werkCK8_oChE%3d
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+TFServer:PostToJSON (string,System.Collections.Generic.Dictionary`2<string, object>,TFServer/JsonResponseHandler,bool) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/TFServer.cs:58)
+SQServer:GcLogin (string,string,string,TFServer/JsonResponseHandler) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/SQServer.cs:213)
+SQAuth:PlatformAuth (Session,TFServer/JsonResponseHandler,bool,string) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/SQAuth.cs:66)
+SQAuth/<>c__DisplayClass13_0:<CheckNonce>b__0 (System.Collections.Generic.Dictionary`2<string, object>,System.Net.HttpStatusCode) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/SQAuth.cs:53)
+TFServer/<>c__DisplayClass20_0:<JsCallback>b__0 (string,System.Net.HttpStatusCode) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/TFServer.cs:143)
+TFServer:OnDownloadComplete (object,System.Net.DownloadStringCompletedEventArgs) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/TFServer.cs:175)
+System.Net.WebClient:OnDownloadStringCompleted (System.Net.DownloadStringCompletedEventArgs)
+System.Net.WebClient:<StartAsyncOperation>b__78_2 (object)
+UnityEngine.UnitySynchronizationContext/WorkRequest:Invoke () (at C:/build/output/unity/unity/Runtime/Export/Scripting/UnitySynchronizationContext.cs:153)
+UnityEngine.UnitySynchronizationContext:Exec () (at C:/build/output/unity/unity/Runtime/Export/Scripting/UnitySynchronizationContext.cs:83)
+UnityEngine.UnitySynchronizationContext:ExecuteTasks () (at C:/build/output/unity/unity/Runtime/Export/Scripting/UnitySynchronizationContext.cs:107)
+
+(Filename: H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/TFServer.cs Line: 58)
+
+in onUploadComplete...
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+TFServer:OnUploadComplete (object,System.Net.UploadStringCompletedEventArgs) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/TFServer.cs:191)
+System.Net.WebClient:OnUploadStringCompleted (System.Net.UploadStringCompletedEventArgs)
+System.Net.WebClient:<StartAsyncOperation>b__78_5 (object)
+UnityEngine.UnitySynchronizationContext/WorkRequest:Invoke () (at C:/build/output/unity/unity/Runtime/Export/Scripting/UnitySynchronizationContext.cs:153)
+UnityEngine.UnitySynchronizationContext:Exec () (at C:/build/output/unity/unity/Runtime/Export/Scripting/UnitySynchronizationContext.cs:83)
+UnityEngine.UnitySynchronizationContext:ExecuteTasks () (at C:/build/output/unity/unity/Runtime/Export/Scripting/UnitySynchronizationContext.cs:107)
+
+(Filename: H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/TFServer.cs Line: 191)
+
+in onRequestCompete...
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+TFServer:OnRequestComplete (object,System.ComponentModel.AsyncCompletedEventArgs) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/TFServer.cs:215)
+TFServer:OnUploadComplete (object,System.Net.UploadStringCompletedEventArgs) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/TFServer.cs:192)
+System.Net.WebClient:OnUploadStringCompleted (System.Net.UploadStringCompletedEventArgs)
+System.Net.WebClient:<StartAsyncOperation>b__78_5 (object)
+UnityEngine.UnitySynchronizationContext/WorkRequest:Invoke () (at C:/build/output/unity/unity/Runtime/Export/Scripting/UnitySynchronizationContext.cs:153)
+UnityEngine.UnitySynchronizationContext:Exec () (at C:/build/output/unity/unity/Runtime/Export/Scripting/UnitySynchronizationContext.cs:83)
+UnityEngine.UnitySynchronizationContext:ExecuteTasks () (at C:/build/output/unity/unity/Runtime/Export/Scripting/UnitySynchronizationContext.cs:107)
+
+(Filename: H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/TFServer.cs Line: 215)
+
+new player: 63f1c44c-8f6e-4b34-82c5-9faed3ea78ea isNew: False
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Player:.ctor (string,bool) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/Player.cs:35)
+Player:LoadFromDataDict (System.Collections.Generic.Dictionary`2<string, object>) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/Player.cs:113)
+Session/Authorizing:OnUpdate (Session) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/Session.cs:103)
+Session:OnUpdate () (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/Session.cs:483)
+SessionManager:Update () (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/SessionManager.cs:542)
+
+(Filename: H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/Player.cs Line: 35)
+
+User logged In
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Session/Authorizing:OnUpdate (Session) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/Session.cs:75)
+Session:OnUpdate () (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/Session.cs:483)
+SessionManager:Update () (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/SessionManager.cs:542)
+
+(Filename: H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/Session.cs Line: 75)
+
+Validating manifest...
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SQContentPatcher:ValidateAndFixDownloadedManifests () (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/SQContentPatcher.cs:89)
+Session/<>c__DisplayClass123_0:<ValidateLastPatch>b__0 () (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/Session.cs:837)
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+(Filename: H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/SQContentPatcher.cs Line: 89)
+
+Validation successful.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SQContentPatcher:ValidateAndFixDownloadedManifests () (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/SQContentPatcher.cs:120)
+Session/<>c__DisplayClass123_0:<ValidateLastPatch>b__0 () (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/Session.cs:837)
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+(Filename: H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/SQContentPatcher.cs Line: 120)
+
+Starting to Patch content
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Session:StartPatch () (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/Session.cs:885)
+SessionManager:StartSyncStreamingAssets () (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/SessionManager.cs:229)
+SessionManager:Update () (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/SessionManager.cs:553)
+
+(Filename: H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/Session.cs Line: 885)
+
+UpdatePatching - contentPatcher is null
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Session:UpdatePatching () (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/Session.cs:853)
+Session:StartPatch () (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/Session.cs:887)
+SessionManager:StartSyncStreamingAssets () (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/SessionManager.cs:229)
+SessionManager:Update () (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/SessionManager.cs:553)
+
+(Filename: H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/Session.cs Line: 853)
+
+Getting Info from https://cwk.retroretreat.net//static/version.txt
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SQWebFileServer:GetServerVersion (TFWebFileServer/FileCallbackHandler,object) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/SQWebFileServer.cs:142)
+Game:GetServerVersion (string,Session) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/Game.cs:259)
+Session:GetServerVersion () (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/Session.cs:530)
+SessionManager:Update () (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/SessionManager.cs:560)
+
+(Filename: H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/SQWebFileServer.cs Line: 142)
+
+Getting file https://cwk.retroretreat.net//static/version.txt
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+TFWebFileServer:GetFile (string,System.Net.WebHeaderCollection,TFWebFileServer/FileCallbackHandler,object) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/TFWebFileServer.cs:40)
+SQWebFileServer:GetServerVersion (TFWebFileServer/FileCallbackHandler,object) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/SQWebFileServer.cs:147)
+Game:GetServerVersion (string,Session) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/Game.cs:259)
+Session:GetServerVersion () (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/Session.cs:530)
+SessionManager:Update () (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/SessionManager.cs:560)
+
+(Filename: H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/TFWebFileServer.cs Line: 40)
+
+Outbound:Age-->65C4254B
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+TFWebFileServer:GetFile (string,System.Net.WebHeaderCollection,TFWebFileServer/FileCallbackHandler,object) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/TFWebFileServer.cs:48)
+SQWebFileServer:GetServerVersion (TFWebFileServer/FileCallbackHandler,object) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/SQWebFileServer.cs:147)
+Game:GetServerVersion (string,Session) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/Game.cs:259)
+Session:GetServerVersion () (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/Session.cs:530)
+SessionManager:Update () (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/SessionManager.cs:560)
+
+(Filename: H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/TFWebFileServer.cs Line: 48)
+
+Error uncompressing data. Returning result directly.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+TFWebFileServer:DecodeZippedData (byte[]) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/TFWebFileServer.cs:172)
+TFWebFileServer:OnCallComplete (object,System.ComponentModel.AsyncCompletedEventArgs,bool) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/TFWebFileServer.cs:209)
+TFWebFileServer:OnGetComplete (object,System.Net.DownloadDataCompletedEventArgs) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/TFWebFileServer.cs:67)
+System.Net.WebClient:OnDownloadDataCompleted (System.Net.DownloadDataCompletedEventArgs)
+System.Net.WebClient:<StartAsyncOperation>b__78_3 (object)
+UnityEngine.UnitySynchronizationContext/WorkRequest:Invoke () (at C:/build/output/unity/unity/Runtime/Export/Scripting/UnitySynchronizationContext.cs:153)
+UnityEngine.UnitySynchronizationContext:Exec () (at C:/build/output/unity/unity/Runtime/Export/Scripting/UnitySynchronizationContext.cs:83)
+UnityEngine.UnitySynchronizationContext:ExecuteTasks () (at C:/build/output/unity/unity/Runtime/Export/Scripting/UnitySynchronizationContext.cs:107)
+
+(Filename: H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/TFWebFileServer.cs Line: 172)
+
+Date-->Thu, 08 Feb 2024 00:50:19 GMT
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+TFWebFileServer:OnCallComplete (object,System.ComponentModel.AsyncCompletedEventArgs,bool) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/TFWebFileServer.cs:222)
+TFWebFileServer:OnGetComplete (object,System.Net.DownloadDataCompletedEventArgs) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/TFWebFileServer.cs:67)
+System.Net.WebClient:OnDownloadDataCompleted (System.Net.DownloadDataCompletedEventArgs)
+System.Net.WebClient:<StartAsyncOperation>b__78_3 (object)
+UnityEngine.UnitySynchronizationContext/WorkRequest:Invoke () (at C:/build/output/unity/unity/Runtime/Export/Scripting/UnitySynchronizationContext.cs:153)
+UnityEngine.UnitySynchronizationContext:Exec () (at C:/build/output/unity/unity/Runtime/Export/Scripting/UnitySynchronizationContext.cs:83)
+UnityEngine.UnitySynchronizationContext:ExecuteTasks () (at C:/build/output/unity/unity/Runtime/Export/Scripting/UnitySynchronizationContext.cs:107)
+
+(Filename: H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/TFWebFileServer.cs Line: 222)
+
+Content-Type-->text/html; charset=utf-8
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+TFWebFileServer:OnCallComplete (object,System.ComponentModel.AsyncCompletedEventArgs,bool) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/TFWebFileServer.cs:222)
+TFWebFileServer:OnGetComplete (object,System.Net.DownloadDataCompletedEventArgs) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/TFWebFileServer.cs:67)
+System.Net.WebClient:OnDownloadDataCompleted (System.Net.DownloadDataCompletedEventArgs)
+System.Net.WebClient:<StartAsyncOperation>b__78_3 (object)
+UnityEngine.UnitySynchronizationContext/WorkRequest:Invoke () (at C:/build/output/unity/unity/Runtime/Export/Scripting/UnitySynchronizationContext.cs:153)
+UnityEngine.UnitySynchronizationContext:Exec () (at C:/build/output/unity/unity/Runtime/Export/Scripting/UnitySynchronizationContext.cs:83)
+UnityEngine.UnitySynchronizationContext:ExecuteTasks () (at C:/build/output/unity/unity/Runtime/Export/Scripting/UnitySynchronizationContext.cs:107)
+
+(Filename: H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/TFWebFileServer.cs Line: 222)
+
+Transfer-Encoding-->chunked
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+TFWebFileServer:OnCallComplete (object,System.ComponentModel.AsyncCompletedEventArgs,bool) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/TFWebFileServer.cs:222)
+TFWebFileServer:OnGetComplete (object,System.Net.DownloadDataCompletedEventArgs) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/TFWebFileServer.cs:67)
+System.Net.WebClient:OnDownloadDataCompleted (System.Net.DownloadDataCompletedEventArgs)
+System.Net.WebClient:<StartAsyncOperation>b__78_3 (object)
+UnityEngine.UnitySynchronizationContext/WorkRequest:Invoke () (at C:/build/output/unity/unity/Runtime/Export/Scripting/UnitySynchronizationContext.cs:153)
+UnityEngine.UnitySynchronizationContext:Exec () (at C:/build/output/unity/unity/Runtime/Export/Scripting/UnitySynchronizationContext.cs:83)
+UnityEngine.UnitySynchronizationContext:ExecuteTasks () (at C:/build/output/unity/unity/Runtime/Export/Scripting/UnitySynchronizationContext.cs:107)
+
+(Filename: H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/TFWebFileServer.cs Line: 222)
+
+Connection-->keep-alive
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+TFWebFileServer:OnCallComplete (object,System.ComponentModel.AsyncCompletedEventArgs,bool) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/TFWebFileServer.cs:222)
+TFWebFileServer:OnGetComplete (object,System.Net.DownloadDataCompletedEventArgs) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/TFWebFileServer.cs:67)
+System.Net.WebClient:OnDownloadDataCompleted (System.Net.DownloadDataCompletedEventArgs)
+System.Net.WebClient:<StartAsyncOperation>b__78_3 (object)
+UnityEngine.UnitySynchronizationContext/WorkRequest:Invoke () (at C:/build/output/unity/unity/Runtime/Export/Scripting/UnitySynchronizationContext.cs:153)
+UnityEngine.UnitySynchronizationContext:Exec () (at C:/build/output/unity/unity/Runtime/Export/Scripting/UnitySynchronizationContext.cs:83)
+UnityEngine.UnitySynchronizationContext:ExecuteTasks () (at C:/build/output/unity/unity/Runtime/Export/Scripting/UnitySynchronizationContext.cs:107)
+
+(Filename: H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/TFWebFileServer.cs Line: 222)
+
+CF-Cache-Status-->DYNAMIC
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+TFWebFileServer:OnCallComplete (object,System.ComponentModel.AsyncCompletedEventArgs,bool) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/TFWebFileServer.cs:222)
+TFWebFileServer:OnGetComplete (object,System.Net.DownloadDataCompletedEventArgs) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/TFWebFileServer.cs:67)
+System.Net.WebClient:OnDownloadDataCompleted (System.Net.DownloadDataCompletedEventArgs)
+System.Net.WebClient:<StartAsyncOperation>b__78_3 (object)
+UnityEngine.UnitySynchronizationContext/WorkRequest:Invoke () (at C:/build/output/unity/unity/Runtime/Export/Scripting/UnitySynchronizationContext.cs:153)
+UnityEngine.UnitySynchronizationContext:Exec () (at C:/build/output/unity/unity/Runtime/Export/Scripting/UnitySynchronizationContext.cs:83)
+UnityEngine.UnitySynchronizationContext:ExecuteTasks () (at C:/build/output/unity/unity/Runtime/Export/Scripting/UnitySynchronizationContext.cs:107)
+
+(Filename: H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/TFWebFileServer.cs Line: 222)
+
+Report-To-->{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=UL%2BE1HGf5O6f3XyT4NTG4f9fKaMIfYzaEgxxSY4m2MVgMtgX%2B7OzVdnHcB9cVS3%2FEuTGby1nHjSYTiT9RbaE4oI73uhu0rNzJNxac0Byy98mjJ%2BZf0ZWDiXOSdJpW3AnAemuKgmlow%3D%3D"}],"group":"cf-nel","max_age":604800}
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+TFWebFileServer:OnCallComplete (object,System.ComponentModel.AsyncCompletedEventArgs,bool) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/TFWebFileServer.cs:222)
+TFWebFileServer:OnGetComplete (object,System.Net.DownloadDataCompletedEventArgs) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/TFWebFileServer.cs:67)
+System.Net.WebClient:OnDownloadDataCompleted (System.Net.DownloadDataCompletedEventArgs)
+System.Net.WebClient:<StartAsyncOperation>b__78_3 (object)
+UnityEngine.UnitySynchronizationContext/WorkRequest:Invoke () (at C:/build/output/unity/unity/Runtime/Export/Scripting/UnitySynchronizationContext.cs:153)
+UnityEngine.UnitySynchronizationContext:Exec () (at C:/build/output/unity/unity/Runtime/Export/Scripting/UnitySynchronizationContext.cs:83)
+UnityEngine.UnitySynchronizationContext:ExecuteTasks () (at C:/build/output/unity/unity/Runtime/Export/Scripting/UnitySynchronizationContext.cs:107)
+
+(Filename: H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/TFWebFileServer.cs Line: 222)
+
+NEL-->{"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+TFWebFileServer:OnCallComplete (object,System.ComponentModel.AsyncCompletedEventArgs,bool) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/TFWebFileServer.cs:222)
+TFWebFileServer:OnGetComplete (object,System.Net.DownloadDataCompletedEventArgs) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/TFWebFileServer.cs:67)
+System.Net.WebClient:OnDownloadDataCompleted (System.Net.DownloadDataCompletedEventArgs)
+System.Net.WebClient:<StartAsyncOperation>b__78_3 (object)
+UnityEngine.UnitySynchronizationContext/WorkRequest:Invoke () (at C:/build/output/unity/unity/Runtime/Export/Scripting/UnitySynchronizationContext.cs:153)
+UnityEngine.UnitySynchronizationContext:Exec () (at C:/build/output/unity/unity/Runtime/Export/Scripting/UnitySynchronizationContext.cs:83)
+UnityEngine.UnitySynchronizationContext:ExecuteTasks () (at C:/build/output/unity/unity/Runtime/Export/Scripting/UnitySynchronizationContext.cs:107)
+
+(Filename: H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/TFWebFileServer.cs Line: 222)
+
+Server-->cloudflare
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+TFWebFileServer:OnCallComplete (object,System.ComponentModel.AsyncCompletedEventArgs,bool) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/TFWebFileServer.cs:222)
+TFWebFileServer:OnGetComplete (object,System.Net.DownloadDataCompletedEventArgs) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/TFWebFileServer.cs:67)
+System.Net.WebClient:OnDownloadDataCompleted (System.Net.DownloadDataCompletedEventArgs)
+System.Net.WebClient:<StartAsyncOperation>b__78_3 (object)
+UnityEngine.UnitySynchronizationContext/WorkRequest:Invoke () (at C:/build/output/unity/unity/Runtime/Export/Scripting/UnitySynchronizationContext.cs:153)
+UnityEngine.UnitySynchronizationContext:Exec () (at C:/build/output/unity/unity/Runtime/Export/Scripting/UnitySynchronizationContext.cs:83)
+UnityEngine.UnitySynchronizationContext:ExecuteTasks () (at C:/build/output/unity/unity/Runtime/Export/Scripting/UnitySynchronizationContext.cs:107)
+
+(Filename: H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/TFWebFileServer.cs Line: 222)
+
+CF-RAY-->851fe0b71d340369-CDG
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+TFWebFileServer:OnCallComplete (object,System.ComponentModel.AsyncCompletedEventArgs,bool) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/TFWebFileServer.cs:222)
+TFWebFileServer:OnGetComplete (object,System.Net.DownloadDataCompletedEventArgs) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/TFWebFileServer.cs:67)
+System.Net.WebClient:OnDownloadDataCompleted (System.Net.DownloadDataCompletedEventArgs)
+System.Net.WebClient:<StartAsyncOperation>b__78_3 (object)
+UnityEngine.UnitySynchronizationContext/WorkRequest:Invoke () (at C:/build/output/unity/unity/Runtime/Export/Scripting/UnitySynchronizationContext.cs:153)
+UnityEngine.UnitySynchronizationContext:Exec () (at C:/build/output/unity/unity/Runtime/Export/Scripting/UnitySynchronizationContext.cs:83)
+UnityEngine.UnitySynchronizationContext:ExecuteTasks () (at C:/build/output/unity/unity/Runtime/Export/Scripting/UnitySynchronizationContext.cs:107)
+
+(Filename: H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/TFWebFileServer.cs Line: 222)
+
+alt-svc-->h3=":443"; ma=86400
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+TFWebFileServer:OnCallComplete (object,System.ComponentModel.AsyncCompletedEventArgs,bool) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/TFWebFileServer.cs:222)
+TFWebFileServer:OnGetComplete (object,System.Net.DownloadDataCompletedEventArgs) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/TFWebFileServer.cs:67)
+System.Net.WebClient:OnDownloadDataCompleted (System.Net.DownloadDataCompletedEventArgs)
+System.Net.WebClient:<StartAsyncOperation>b__78_3 (object)
+UnityEngine.UnitySynchronizationContext/WorkRequest:Invoke () (at C:/build/output/unity/unity/Runtime/Export/Scripting/UnitySynchronizationContext.cs:153)
+UnityEngine.UnitySynchronizationContext:Exec () (at C:/build/output/unity/unity/Runtime/Export/Scripting/UnitySynchronizationContext.cs:83)
+UnityEngine.UnitySynchronizationContext:ExecuteTasks () (at C:/build/output/unity/unity/Runtime/Export/Scripting/UnitySynchronizationContext.cs:107)
+
+(Filename: H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/TFWebFileServer.cs Line: 222)
+
+Server time difference = 7199.5610721
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+TFUtils:UpdateServerTime (System.DateTime) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/TFUtils.cs:57)
+TFWebFileServer:OnCallComplete (object,System.ComponentModel.AsyncCompletedEventArgs,bool) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/TFWebFileServer.cs:274)
+TFWebFileServer:OnGetComplete (object,System.Net.DownloadDataCompletedEventArgs) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/TFWebFileServer.cs:67)
+System.Net.WebClient:OnDownloadDataCompleted (System.Net.DownloadDataCompletedEventArgs)
+System.Net.WebClient:<StartAsyncOperation>b__78_3 (object)
+UnityEngine.UnitySynchronizationContext/WorkRequest:Invoke () (at C:/build/output/unity/unity/Runtime/Export/Scripting/UnitySynchronizationContext.cs:153)
+UnityEngine.UnitySynchronizationContext:Exec () (at C:/build/output/unity/unity/Runtime/Export/Scripting/UnitySynchronizationContext.cs:83)
+UnityEngine.UnitySynchronizationContext:ExecuteTasks () (at C:/build/output/unity/unity/Runtime/Export/Scripting/UnitySynchronizationContext.cs:107)
+
+(Filename: H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/TFUtils.cs Line: 57)
+
+LoadingManager -- Loading TownScheduleDataManager
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LoadingManager/<LoadAllCo>d__8:MoveNext () (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/LoadingManager.cs:107)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator) (at C:/build/output/unity/unity/Runtime/Export/Scripting/MonoBehaviour.bindings.cs:112)
+LoadingManager:LoadAll (LoadingManager/OnFinishedDelegate) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/LoadingManager.cs:98)
+SessionManager:StartLoadingData () (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/SessionManager.cs:524)
+SessionManager:Update () (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/SessionManager.cs:583)
+
+(Filename: H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/LoadingManager.cs Line: 107)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at TFUtils.TryLoadString (System.Collections.Generic.Dictionary`2[TKey,TValue] data, System.String key) [0x00001] in H:\Unity\CardWarsKingdom-1.0.16\Assets\Scripts\Assembly-CSharp\TFUtils.cs:239 
+  at TFUtils.LoadString (System.Collections.Generic.Dictionary`2[TKey,TValue] data, System.String key, System.String defaultValue) [0x00001] in H:\Unity\CardWarsKingdom-1.0.16\Assets\Scripts\Assembly-CSharp\TFUtils.cs:224 
+  at TownScheduleData.Populate (System.Collections.Generic.Dictionary`2[TKey,TValue] dict) [0x00001] in H:\Unity\CardWarsKingdom-1.0.16\Assets\Scripts\Assembly-CSharp\TownScheduleData.cs:48 
+  at DataManager`1[T].ParseRows (System.Collections.Generic.List`1[T] jlist) [0x00033] in H:\Unity\CardWarsKingdom-1.0.16\Assets\Scripts\Assembly-CSharp\DataManager.cs:212 
+  at DataManager`1[T].LoadAndParseJsonDataThread (System.String appliedFilePath, System.String wwwText) [0x00053] in H:\Unity\CardWarsKingdom-1.0.16\Assets\Scripts\Assembly-CSharp\DataManager.cs:177 
+****** Extra Data ******
+[Filename] = 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+DataManager`1<TownScheduleData>:PrintException (System.Exception) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/DataManager.cs:76)
+DataManager`1<TownScheduleData>:CheckAndThrowExeptions () (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/DataManager.cs:83)
+DataManager`1/<Load>d__23<TownScheduleData>:MoveNext () (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/DataManager.cs:122)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/DataManager.cs Line: 76)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at DataManager`1[T].CheckAndThrowExeptions () [0x0001c] in H:\Unity\CardWarsKingdom-1.0.16\Assets\Scripts\Assembly-CSharp\DataManager.cs:84 
+  at DataManager`1+<Load>d__23[T].MoveNext () [0x00256] in H:\Unity\CardWarsKingdom-1.0.16\Assets\Scripts\Assembly-CSharp\DataManager.cs:122 
+  at UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) [0x00020] in C:\build\output\unity\unity\Runtime\Export\Scripting\Coroutines.cs:17 
+
+(Filename: H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/DataManager.cs Line: 84)
+
+Application pausing : True, False
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SessionManager:OnApplicationPauseFromFocus (bool) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/SessionManager.cs:667)
+SessionManager:OnApplicationFocus (bool) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/SessionManager.cs:661)
+
+(Filename: H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/SessionManager.cs Line: 667)
+
+Application pausing : False, False
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SessionManager:OnApplicationPauseFromFocus (bool) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/SessionManager.cs:667)
+SessionManager:OnApplicationFocus (bool) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/SessionManager.cs:661)
+
+(Filename: H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/SessionManager.cs Line: 667)
+
+H: Calling GetServerTime
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SessionManager:OnApplicationPauseFromFocus (bool) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/SessionManager.cs:672)
+SessionManager:OnApplicationFocus (bool) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/SessionManager.cs:661)
+
+(Filename: H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/SessionManager.cs Line: 672)
+
+making request to https://cwk.retroretreat.net/time/
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+TFServer:GetToJSON (string,TFServer/JsonResponseHandler) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/TFServer.cs:100)
+SQServer:GetTime (TFServer/JsonResponseHandler) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/SQServer.cs:218)
+Session:GetServerTime () (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/Session.cs:584)
+SessionManager:OnApplicationPauseFromFocus (bool) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/SessionManager.cs:673)
+SessionManager:OnApplicationFocus (bool) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/SessionManager.cs:661)
+
+(Filename: H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/TFServer.cs Line: 100)
+
+in onDownloadComplete...
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+TFServer:OnDownloadComplete (object,System.Net.DownloadStringCompletedEventArgs) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/TFServer.cs:165)
+System.Net.WebClient:OnDownloadStringCompleted (System.Net.DownloadStringCompletedEventArgs)
+System.Net.WebClient:<StartAsyncOperation>b__78_2 (object)
+UnityEngine.UnitySynchronizationContext/WorkRequest:Invoke () (at C:/build/output/unity/unity/Runtime/Export/Scripting/UnitySynchronizationContext.cs:153)
+UnityEngine.UnitySynchronizationContext:Exec () (at C:/build/output/unity/unity/Runtime/Export/Scripting/UnitySynchronizationContext.cs:83)
+UnityEngine.UnitySynchronizationContext:ExecuteTasks () (at C:/build/output/unity/unity/Runtime/Export/Scripting/UnitySynchronizationContext.cs:107)
+
+(Filename: H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/TFServer.cs Line: 165)
+
+in onRequestCompete...
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+TFServer:OnRequestComplete (object,System.ComponentModel.AsyncCompletedEventArgs) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/TFServer.cs:215)
+TFServer:OnDownloadComplete (object,System.Net.DownloadStringCompletedEventArgs) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/TFServer.cs:166)
+System.Net.WebClient:OnDownloadStringCompleted (System.Net.DownloadStringCompletedEventArgs)
+System.Net.WebClient:<StartAsyncOperation>b__78_2 (object)
+UnityEngine.UnitySynchronizationContext/WorkRequest:Invoke () (at C:/build/output/unity/unity/Runtime/Export/Scripting/UnitySynchronizationContext.cs:153)
+UnityEngine.UnitySynchronizationContext:Exec () (at C:/build/output/unity/unity/Runtime/Export/Scripting/UnitySynchronizationContext.cs:83)
+UnityEngine.UnitySynchronizationContext:ExecuteTasks () (at C:/build/output/unity/unity/Runtime/Export/Scripting/UnitySynchronizationContext.cs:107)
+
+(Filename: H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/TFServer.cs Line: 215)
+
+web result: {"data":{"server_time":"Thu, 08 Feb 2024 00:57:01 GMT"}}
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+TFServer:OnDownloadComplete (object,System.Net.DownloadStringCompletedEventArgs) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/TFServer.cs:171)
+System.Net.WebClient:OnDownloadStringCompleted (System.Net.DownloadStringCompletedEventArgs)
+System.Net.WebClient:<StartAsyncOperation>b__78_2 (object)
+UnityEngine.UnitySynchronizationContext/WorkRequest:Invoke () (at C:/build/output/unity/unity/Runtime/Export/Scripting/UnitySynchronizationContext.cs:153)
+UnityEngine.UnitySynchronizationContext:Exec () (at C:/build/output/unity/unity/Runtime/Export/Scripting/UnitySynchronizationContext.cs:83)
+UnityEngine.UnitySynchronizationContext:ExecuteTasks () (at C:/build/output/unity/unity/Runtime/Export/Scripting/UnitySynchronizationContext.cs:107)
+
+(Filename: H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/TFServer.cs Line: 171)
+
+FormatException: String was not recognized as a valid DateTime.
+  at System.DateTimeParse.ParseExact (System.ReadOnlySpan`1[T] s, System.ReadOnlySpan`1[T] format, System.Globalization.DateTimeFormatInfo dtfi, System.Globalization.DateTimeStyles style) [0x0002b] in <17d9ce77f27a4bd2afb5ba32c9bea976>:0 
+  at System.DateTime.ParseExact (System.String s, System.String format, System.IFormatProvider provider) [0x00026] in <17d9ce77f27a4bd2afb5ba32c9bea976>:0 
+  at Session+<>c.<GetServerTime>b__100_0 (System.Collections.Generic.Dictionary`2[TKey,TValue] data, System.Net.HttpStatusCode status) [0x0001f] in H:\Unity\CardWarsKingdom-1.0.16\Assets\Scripts\Assembly-CSharp\Session.cs:580 
+  at TFServer+<>c__DisplayClass20_0.<JsCallback>b__0 (System.String jsonResponse, System.Net.HttpStatusCode code) [0x0000d] in H:\Unity\CardWarsKingdom-1.0.16\Assets\Scripts\Assembly-CSharp\TFServer.cs:143 
+  at TFServer.OnDownloadComplete (System.Object sender, System.Net.DownloadStringCompletedEventArgs e) [0x0004d] in H:\Unity\CardWarsKingdom-1.0.16\Assets\Scripts\Assembly-CSharp\TFServer.cs:175 
+  at System.Net.WebClient.OnDownloadStringCompleted (System.Net.DownloadStringCompletedEventArgs e) [0x0000a] in <0176c56e11184037ab8bba48ad8e5607>:0 
+  at System.Net.WebClient.<StartAsyncOperation>b__78_2 (System.Object arg) [0x00000] in <0176c56e11184037ab8bba48ad8e5607>:0 
+  at UnityEngine.UnitySynchronizationContext+WorkRequest.Invoke () [0x00002] in C:\build\output\unity\unity\Runtime\Export\Scripting\UnitySynchronizationContext.cs:153 
+  at UnityEngine.UnitySynchronizationContext.Exec () [0x0005d] in C:\build\output\unity\unity\Runtime\Export\Scripting\UnitySynchronizationContext.cs:83 
+  at UnityEngine.UnitySynchronizationContext.ExecuteTasks () [0x00014] in C:\build\output\unity\unity\Runtime\Export\Scripting\UnitySynchronizationContext.cs:107 
+
+(Filename: H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/Session.cs Line: 580)
+
+Application pausing : True, False
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SessionManager:OnApplicationPauseFromFocus (bool) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/SessionManager.cs:667)
+SessionManager:OnApplicationFocus (bool) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/SessionManager.cs:661)
+
+(Filename: H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/SessionManager.cs Line: 667)
+
+Application pausing : False, False
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SessionManager:OnApplicationPauseFromFocus (bool) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/SessionManager.cs:667)
+SessionManager:OnApplicationFocus (bool) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/SessionManager.cs:661)
+
+(Filename: H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/SessionManager.cs Line: 667)
+
+H: Calling GetServerTime
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SessionManager:OnApplicationPauseFromFocus (bool) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/SessionManager.cs:672)
+SessionManager:OnApplicationFocus (bool) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/SessionManager.cs:661)
+
+(Filename: H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/SessionManager.cs Line: 672)
+
+making request to https://cwk.retroretreat.net/time/
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+TFServer:GetToJSON (string,TFServer/JsonResponseHandler) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/TFServer.cs:100)
+SQServer:GetTime (TFServer/JsonResponseHandler) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/SQServer.cs:218)
+Session:GetServerTime () (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/Session.cs:584)
+SessionManager:OnApplicationPauseFromFocus (bool) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/SessionManager.cs:673)
+SessionManager:OnApplicationFocus (bool) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/SessionManager.cs:661)
+
+(Filename: H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/TFServer.cs Line: 100)
+
+in onDownloadComplete...
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+TFServer:OnDownloadComplete (object,System.Net.DownloadStringCompletedEventArgs) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/TFServer.cs:165)
+System.Net.WebClient:OnDownloadStringCompleted (System.Net.DownloadStringCompletedEventArgs)
+System.Net.WebClient:<StartAsyncOperation>b__78_2 (object)
+UnityEngine.UnitySynchronizationContext/WorkRequest:Invoke () (at C:/build/output/unity/unity/Runtime/Export/Scripting/UnitySynchronizationContext.cs:153)
+UnityEngine.UnitySynchronizationContext:Exec () (at C:/build/output/unity/unity/Runtime/Export/Scripting/UnitySynchronizationContext.cs:83)
+UnityEngine.UnitySynchronizationContext:ExecuteTasks () (at C:/build/output/unity/unity/Runtime/Export/Scripting/UnitySynchronizationContext.cs:107)
+
+(Filename: H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/TFServer.cs Line: 165)
+
+in onRequestCompete...
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+TFServer:OnRequestComplete (object,System.ComponentModel.AsyncCompletedEventArgs) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/TFServer.cs:215)
+TFServer:OnDownloadComplete (object,System.Net.DownloadStringCompletedEventArgs) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/TFServer.cs:166)
+System.Net.WebClient:OnDownloadStringCompleted (System.Net.DownloadStringCompletedEventArgs)
+System.Net.WebClient:<StartAsyncOperation>b__78_2 (object)
+UnityEngine.UnitySynchronizationContext/WorkRequest:Invoke () (at C:/build/output/unity/unity/Runtime/Export/Scripting/UnitySynchronizationContext.cs:153)
+UnityEngine.UnitySynchronizationContext:Exec () (at C:/build/output/unity/unity/Runtime/Export/Scripting/UnitySynchronizationContext.cs:83)
+UnityEngine.UnitySynchronizationContext:ExecuteTasks () (at C:/build/output/unity/unity/Runtime/Export/Scripting/UnitySynchronizationContext.cs:107)
+
+(Filename: H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/TFServer.cs Line: 215)
+
+web result: {"data":{"server_time":"Thu, 08 Feb 2024 00:57:18 GMT"}}
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+TFServer:OnDownloadComplete (object,System.Net.DownloadStringCompletedEventArgs) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/TFServer.cs:171)
+System.Net.WebClient:OnDownloadStringCompleted (System.Net.DownloadStringCompletedEventArgs)
+System.Net.WebClient:<StartAsyncOperation>b__78_2 (object)
+UnityEngine.UnitySynchronizationContext/WorkRequest:Invoke () (at C:/build/output/unity/unity/Runtime/Export/Scripting/UnitySynchronizationContext.cs:153)
+UnityEngine.UnitySynchronizationContext:Exec () (at C:/build/output/unity/unity/Runtime/Export/Scripting/UnitySynchronizationContext.cs:83)
+UnityEngine.UnitySynchronizationContext:ExecuteTasks () (at C:/build/output/unity/unity/Runtime/Export/Scripting/UnitySynchronizationContext.cs:107)
+
+(Filename: H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/TFServer.cs Line: 171)
+
+FormatException: String was not recognized as a valid DateTime.
+  at System.DateTimeParse.ParseExact (System.ReadOnlySpan`1[T] s, System.ReadOnlySpan`1[T] format, System.Globalization.DateTimeFormatInfo dtfi, System.Globalization.DateTimeStyles style) [0x0002b] in <17d9ce77f27a4bd2afb5ba32c9bea976>:0 
+  at System.DateTime.ParseExact (System.String s, System.String format, System.IFormatProvider provider) [0x00026] in <17d9ce77f27a4bd2afb5ba32c9bea976>:0 
+  at Session+<>c.<GetServerTime>b__100_0 (System.Collections.Generic.Dictionary`2[TKey,TValue] data, System.Net.HttpStatusCode status) [0x0001f] in H:\Unity\CardWarsKingdom-1.0.16\Assets\Scripts\Assembly-CSharp\Session.cs:580 
+  at TFServer+<>c__DisplayClass20_0.<JsCallback>b__0 (System.String jsonResponse, System.Net.HttpStatusCode code) [0x0000d] in H:\Unity\CardWarsKingdom-1.0.16\Assets\Scripts\Assembly-CSharp\TFServer.cs:143 
+  at TFServer.OnDownloadComplete (System.Object sender, System.Net.DownloadStringCompletedEventArgs e) [0x0004d] in H:\Unity\CardWarsKingdom-1.0.16\Assets\Scripts\Assembly-CSharp\TFServer.cs:175 
+  at System.Net.WebClient.OnDownloadStringCompleted (System.Net.DownloadStringCompletedEventArgs e) [0x0000a] in <0176c56e11184037ab8bba48ad8e5607>:0 
+  at System.Net.WebClient.<StartAsyncOperation>b__78_2 (System.Object arg) [0x00000] in <0176c56e11184037ab8bba48ad8e5607>:0 
+  at UnityEngine.UnitySynchronizationContext+WorkRequest.Invoke () [0x00002] in C:\build\output\unity\unity\Runtime\Export\Scripting\UnitySynchronizationContext.cs:153 
+  at UnityEngine.UnitySynchronizationContext.Exec () [0x0005d] in C:\build\output\unity\unity\Runtime\Export\Scripting\UnitySynchronizationContext.cs:83 
+  at UnityEngine.UnitySynchronizationContext.ExecuteTasks () [0x00014] in C:\build\output\unity\unity\Runtime\Export\Scripting\UnitySynchronizationContext.cs:107 
+
+(Filename: H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/Session.cs Line: 580)
+
+Application pausing : True, False
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SessionManager:OnApplicationPauseFromFocus (bool) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/SessionManager.cs:667)
+SessionManager:OnApplicationFocus (bool) (at H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/SessionManager.cs:661)
+
+(Filename: H:/Unity/CardWarsKingdom-1.0.16/Assets/Scripts/Assembly-CSharp/SessionManager.cs Line: 667)
+
